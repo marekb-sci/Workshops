@@ -147,6 +147,10 @@ class: left, .toc[[&#10023;](../index.html)]
 
 <img style="width:100%"  src="../figures/why_inject_physics_2_ML.png">
 
+---
+class: left, .toc[[&#10023;](../index.html)]
+#  How inject physics to ML?
+
 --
 * Inductive bias: architecture behind Fourier/Laplace neural operator; equivariant neural nets.
 
@@ -172,24 +176,14 @@ class: left, .toc[[&#10023;](../index.html)]
 ---
 class: left, .toc[[&#10023;](../index.html)]
 #  What can we do with PINNs?
+  
+* Solutions of PDEs: Knowing parameters `$\gamma$` find solution `$u(t, \mathbf{x}) $`. 
 
+* Use partial knowledge about solution: Knowing sparce measurements `$u (t^i, x^i)$` and parameters, find `$u(t, \mathbf{x}) $`.
 
-**Inference, smoothing**
+* Solve inverse problems: Knowing measurements `$u (t^i, x^i)$` find parameters `$\gamma$`. 
 
-*1a. Solutions of PDEs*: Knowing `$\gamma$` find `$u(t, \mathbf{x}) $`. 
-
-*1b. Data-efficient* spatio-temporal function approximators - instead of classical file compression ;)
-
-*1c. Accurate RK time steppers* with maaany stages (~100).
-
---
-
-<br>
-**System identification, learning coefficients**
-
-*2. Data-driven discovery of PDEs solutions*: 
-Find `$\gamma$` that best describes experimental observations `$u (t^i, x^i)$` 
-
+* Data-efficient* spatio-temporal function approximators - instead of classical file compression ;)
 
 
 ---
