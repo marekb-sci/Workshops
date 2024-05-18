@@ -10,7 +10,7 @@ Hosted with https://raw.githack.com/
 
 
 <!-- Use this URL for development -->
-[Lecture 1 - Introduction to Physics-Informed Neural Networks (PINNs)](https://raw.githack.com/center4ml/Workshops/2023_2/lectures/pages/pinn.html#1)
+[Lecture 1 - Introduction to Physics-Informed Neural Networks (PINNs)](https://raw.githack.com//marekb-sci/Workshops/2023_2/lectures/pages/pinn.html#1)
 
 <!-- Use this URL in production
 [Lecture 1](https://rawcdn.githack.com/ggruszczynski/gpu_colab/c63333b560d9a39271d629a4853d818d10af8be2/lectures/gpu_lecture1.html#1) -->
